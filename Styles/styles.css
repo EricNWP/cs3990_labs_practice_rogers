@@ -1,0 +1,75 @@
+* {
+  color: rgb(1, 1, 69);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url('Images/burger.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;}
+
+
+h1 {
+  color: rgb(253, 87, 123);
+  font-size: 60px;
+}
+
+h2 {
+  color: rgb(15, 187, 218);
+  font-size: 50px;
+  font-style: italic;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  line-height: 30px;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+#second {
+  text-decoration: none;
+}
+
+.redp {
+  color:aqua;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 38px;
+}
+
+#greenp {
+  color:brown;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 42px;
+}
+
+
+
+h3 {
+  font-size: 50px;
+  background-color: pink;
+
+}
+h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#myname {
+  text-align: center;
+
+}
+
+li {
+  color: orange;
+  font-size: 40px;
+  width: 500px;
+}
+
+ul{
+  font-size: 30px;
+  width: 800px;
+}
