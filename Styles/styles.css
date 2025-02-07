@@ -66,15 +66,17 @@ h4 {
   width: 500px;
 }
 
-#list1, #list2 li:first-of-type a, li:first-of-type{
-  color: purple;
+/* TASK 2*/
+#list1, #list2 li:first-of-type a, li:first-of-type, li:last-child{
+  color: rgb(233, 215, 50);
 }
 
 .page2 p:last-of-type{
   color: green!important;
 }
 
-.page3 p:not(.spec_p), .page3:not(last-of-type){
+/* TASK 4 */
+.page3 p:not(.spec_p), .page3:last-of-type{
   font-size: 50px;
   color: pink;
 }
@@ -85,7 +87,7 @@ h4 {
   list-style-type: decimal;
   
 }
-
+/*Task 3*/
 #list2 li:not(.spec_item), a:not(.spec_item){
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -115,13 +117,14 @@ a .spec_item {
   height:400px; 
   border: 3px solid green;
 }
-
+/* TASK 1*/
 #pic1:hover, #pic2:hover, #pic3:hover{
   border-style: solid;
   border-color: red;
   border-radius: 5px;
 }
 
+/* TASK 5*/
 .bottom:hover::after{
   content: "👇";
   height: 20px;
@@ -141,6 +144,7 @@ a .spec_item {
 
 }
 
+/* TASK 7*/
 .end a:after{
   content: " /";
 }
@@ -153,32 +157,30 @@ a .spec_item {
   content: "";
 }
 
-.page1 h2:nth-of-type(odd)::before {
+/* TASK 8*/
+.page1 :is(h1,h2,h3,h4):nth-of-type(odd)::before {
   content: "—————————— ";
   height: 20px;
   width: 20px;
   color: black;
 }
 
-.page1 h2:nth-of-type(odd)::after {
+.page1 :is(h1,h2,h3,h4):nth-of-type(odd)::after {
   content: " ——————————";
   height: 20px;
   width: 20px;
   color: black;
 }
-.page1 h2:nth-of-type(even){
+
+/* TASK 9 FIX*/ 
+.page1 :is(h1,h2,h3,h4):nth-of-type(even){
   display: inline-block;
-  background-color: green;
+  background: linear-gradient(green, red);
 }
 
-.page1 h2:nth-of-type(even):hover{
-  display: inline-block;
-  background-color: red;
-  transition-duration: 3s;
-  transition-timing-function: ease-in;
 
-}
 
+/* TASK 10*/ 
 .top {
   border-style: solid;
   border-color: black;
@@ -197,6 +199,7 @@ a .spec_item {
   background-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
 }
 
+/* TASK 11*/
 #div1 img{
   height: 100px;
   width: 100px;
