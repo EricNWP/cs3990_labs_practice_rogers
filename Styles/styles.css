@@ -1,0 +1,179 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  align-items: center;
+  background-image: url("https://cas.umw.edu/computerscience/files/2024/09/computerscience-scaled.jpg") ;
+  padding: 5vh 5vw;
+  min-height: 20vh;
+  gap: 3rem;
+  max-height: 70vh;
+}
+
+/* Left Side (Text) */
+.dream {
+  font-size: 3.5rem;
+  color: purple;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
+/* Right Side (Description + Button) */
+.p1 {
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.browse, .browse1{
+  background-color: orange;
+  padding: 1vh;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  max-width: 250px;
+  height: 1rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.browse {
+  max-width: 250px;
+}
+
+.browse1 {
+  max-width: 150px;
+}
+
+.browse:hover, .browse1:hover{
+  opacity: 60%;
+  color: black;
+}
+
+.programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  padding: 2vh 2vw;
+  gap: 1rem;
+  max-height: 60vh;
+}
+
+.programgrid {
+  display: grid;
+  padding: 2vh 1vw;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+  grid-template-rows: repeat(auto-fit, minmax (100px, 1fr));
+  gap: 1.5rem;
+}
+
+.programgridheader1, .programgridheader2, .programgridheader3 {
+  margin: 0vh 1vw;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  height: 15vh;
+  color: white;
+  border-radius: 7px;
+}
+
+.programgridheader1 {
+  background-image: url("https://oaustech.edu.ng/media/k2/items/cache/5288462d048e0d3f60f64bb84cff6df4_M.jpg");
+}
+
+.programgridheader2 {
+  background-image: url("https://www.topuniversities.com/sites/default/files/styles/736x304/public/guides/lead-bg-images/file%20-%202024-07-23T150458.046.jpg.webp");
+}
+
+.programgridheader3 {
+  background-image: url("https://www.stockton.edu/business/images/computer-science-banner.jpg");
+}
+
+.programtitle {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 1vw;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.9rem;
+}
+
+.programp {
+  color: black;
+  font-size: 0.7rem;
+}
+
+.footer {
+  background-color: navy;
+  width: 96vw;
+  color: white;
+  padding: 1vh 1vw;
+  max-height: 2vh;
+}
+
+#footer2 {
+  float: right;
+}
+
+.courses {
+  display: grid;
+  padding: 4vh 2vw;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  align-items: center;
+
+}
+
+
+.course1text, .course2text, .course3text, .course4text {
+  display: none;
+}
+
+.course1:hover .course1text, .course2:hover .course2text, .course3:hover .course3text, .course4:hover .course4text {
+  display:block;
+  text-align: center;
+}
+
+
+
+.course1image {
+  background-image: url("https://m.media-amazon.com/images/I/61-Fa8CtCdL._UF894,1000_QL80_.jpg");
+  background-size: 100% 100%;
+  height: 30vh;
+}
+
+.course2image {
+  background-image: url("https://koenig-media.raywenderlich.com/uploads/2021/09/ALG-Blog-Post-3-1.png");
+  height: 30vh;
+  background-size: 100% 100%;
+
+}
+
+.course3image {
+  background-image: url("https://m.media-amazon.com/images/I/51Azp8OB3CL._AC_UF1000,1000_QL80_.jpg");
+  height: 30vh;
+  background-size: 100% 100%;
+
+}
+
+.course4image {
+  background-image: url("https://m.media-amazon.com/images/I/81qN9Jkm3PL.jpg");
+  height: 30vh;
+  background-size: 100% 100%;
+
+}
+
+.coursetext {
+  margin: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.biggrid {
+  display: grid;
+  grid-template-rows: minmax(300px, 0.5fr) 1fr 1fr;
+  grid-template-columns: 0.7fr;
+  max-width: 1vw;
+}
