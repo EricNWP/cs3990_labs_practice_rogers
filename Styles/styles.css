@@ -1,0 +1,66 @@
+
+.eightbox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  align-items: center;
+  background-color: rgb(9, 80, 9);
+  color:white;
+  height:70%;
+}
+
+.imgbox {
+  background-color: lightgreen;
+  border-radius:35px;
+  padding: 5%;
+  margin:3%;
+
+}
+
+.header {
+  margin-top:1vh;
+  margin-bottom:1vh;
+  background-color: rgb(9, 80, 9);
+  align-items:center;
+  color:white;
+  text-align:center;
+  font-size: 2vw;
+
+}
+
+.header:hover::before{
+  content: "😊";
+}
+
+.header:hover::after{
+  content: "😊";
+}
+
+.bottombox {
+  background-color: rgb(89, 199, 89);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(49%, 1vw)); 
+}
+
+.bottomboxtext {
+  background-color: rgb(206, 238, 206);
+  border-radius:5px;
+  margin:1%;
+  color: darkgreen;
+  padding: 1%;
+  font-size: 1.5vw;
+
+}
+
+.bottomboxtext:hover::first-letter{
+  color:red;
+  font-size:2vw;
+}
+
+.imgtest {
+  background-image: url("../Images/lorem.png");
+  border-radius:35px;
+  height:18vh;
+  max-width:100%;
+  padding:3%;
+}
+
