@@ -1,0 +1,25 @@
+#box {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.colorbutton {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#target {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block; /* Keep text within bounds */
+    text-align: center;    /* Center the text */
+}

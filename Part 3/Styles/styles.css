@@ -1,0 +1,22 @@
+
+.menuItem.selected {
+    color: red;
+    font-weight: bold;
+  }
+
+#menuTop::before{
+    content: "➡️";
+}
+
+#menuTop.selected::before{
+    content: "⬇️";
+}
+
+#imgdiv {
+    display: inline-block;
+
+}
+
+#imgdiv.selected {
+    display: none;
+}
