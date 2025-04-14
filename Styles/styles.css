@@ -1,0 +1,11 @@
+#menu {
+    display: inline-block;
+}
+
+.hideclass {
+    display: none;
+}
+
+p {
+    display: inline-block
+}
